@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AFCFFA826175D8E002A63A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFFA726175D8E002A63A2 /* AppDelegate.swift */; };
+		3AFCFFAA26175D8E002A63A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFFA926175D8E002A63A2 /* SceneDelegate.swift */; };
+		3AFCFFAC26175D8E002A63A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFFAB26175D8E002A63A2 /* ViewController.swift */; };
+		3AFCFFAF26175D8E002A63A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFCFFAD26175D8E002A63A2 /* Main.storyboard */; };
+		3AFCFFB126175D8F002A63A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFCFFB026175D8F002A63A2 /* Assets.xcassets */; };
+		3AFCFFB426175D8F002A63A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AFCFFB226175D8F002A63A2 /* LaunchScreen.storyboard */; };
+		3AFCFFBF26175D8F002A63A2 /* fort7350_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFFBE26175D8F002A63A2 /* fort7350_projectTests.swift */; };
+		3AFCFFCA26175D8F002A63A2 /* fort7350_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCFFC926175D8F002A63A2 /* fort7350_projectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AFCFFBB26175D8F002A63A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AFCFF9C26175D8E002A63A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AFCFFA326175D8E002A63A2;
+			remoteInfo = fort7350_project;
+		};
+		3AFCFFC626175D8F002A63A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AFCFF9C26175D8E002A63A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AFCFFA326175D8E002A63A2;
+			remoteInfo = fort7350_project;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AFCFFA426175D8E002A63A2 /* fort7350_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fort7350_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFCFFA726175D8E002A63A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AFCFFA926175D8E002A63A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3AFCFFAB26175D8E002A63A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AFCFFAE26175D8E002A63A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AFCFFB026175D8F002A63A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AFCFFB326175D8F002A63A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AFCFFB526175D8F002A63A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFCFFBA26175D8F002A63A2 /* fort7350_projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fort7350_projectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFCFFBE26175D8F002A63A2 /* fort7350_projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fort7350_projectTests.swift; sourceTree = "<group>"; };
+		3AFCFFC026175D8F002A63A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AFCFFC526175D8F002A63A2 /* fort7350_projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fort7350_projectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFCFFC926175D8F002A63A2 /* fort7350_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fort7350_projectUITests.swift; sourceTree = "<group>"; };
+		3AFCFFCB26175D8F002A63A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AFCFFA126175D8E002A63A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFCFFB726175D8F002A63A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFCFFC226175D8F002A63A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AFCFF9B26175D8E002A63A2 = {
+			isa = PBXGroup;
+			children = (
+				3AFCFFA626175D8E002A63A2 /* fort7350_project */,
+				3AFCFFBD26175D8F002A63A2 /* fort7350_projectTests */,
+				3AFCFFC826175D8F002A63A2 /* fort7350_projectUITests */,
+				3AFCFFA526175D8E002A63A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AFCFFA526175D8E002A63A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AFCFFA426175D8E002A63A2 /* fort7350_project.app */,
+				3AFCFFBA26175D8F002A63A2 /* fort7350_projectTests.xctest */,
+				3AFCFFC526175D8F002A63A2 /* fort7350_projectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AFCFFA626175D8E002A63A2 /* fort7350_project */ = {
+			isa = PBXGroup;
+			children = (
+				3AFCFFA726175D8E002A63A2 /* AppDelegate.swift */,
+				3AFCFFA926175D8E002A63A2 /* SceneDelegate.swift */,
+				3AFCFFAB26175D8E002A63A2 /* ViewController.swift */,
+				3AFCFFAD26175D8E002A63A2 /* Main.storyboard */,
+				3AFCFFB026175D8F002A63A2 /* Assets.xcassets */,
+				3AFCFFB226175D8F002A63A2 /* LaunchScreen.storyboard */,
+				3AFCFFB526175D8F002A63A2 /* Info.plist */,
+			);
+			path = fort7350_project;
+			sourceTree = "<group>";
+		};
+		3AFCFFBD26175D8F002A63A2 /* fort7350_projectTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AFCFFBE26175D8F002A63A2 /* fort7350_projectTests.swift */,
+				3AFCFFC026175D8F002A63A2 /* Info.plist */,
+			);
+			path = fort7350_projectTests;
+			sourceTree = "<group>";
+		};
+		3AFCFFC826175D8F002A63A2 /* fort7350_projectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AFCFFC926175D8F002A63A2 /* fort7350_projectUITests.swift */,
+				3AFCFFCB26175D8F002A63A2 /* Info.plist */,
+			);
+			path = fort7350_projectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AFCFFA326175D8E002A63A2 /* fort7350_project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFCFFCE26175D8F002A63A2 /* Build configuration list for PBXNativeTarget "fort7350_project" */;
+			buildPhases = (
+				3AFCFFA026175D8E002A63A2 /* Sources */,
+				3AFCFFA126175D8E002A63A2 /* Frameworks */,
+				3AFCFFA226175D8E002A63A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fort7350_project;
+			productName = fort7350_project;
+			productReference = 3AFCFFA426175D8E002A63A2 /* fort7350_project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AFCFFB926175D8F002A63A2 /* fort7350_projectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFCFFD126175D8F002A63A2 /* Build configuration list for PBXNativeTarget "fort7350_projectTests" */;
+			buildPhases = (
+				3AFCFFB626175D8F002A63A2 /* Sources */,
+				3AFCFFB726175D8F002A63A2 /* Frameworks */,
+				3AFCFFB826175D8F002A63A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AFCFFBC26175D8F002A63A2 /* PBXTargetDependency */,
+			);
+			name = fort7350_projectTests;
+			productName = fort7350_projectTests;
+			productReference = 3AFCFFBA26175D8F002A63A2 /* fort7350_projectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AFCFFC426175D8F002A63A2 /* fort7350_projectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFCFFD426175D8F002A63A2 /* Build configuration list for PBXNativeTarget "fort7350_projectUITests" */;
+			buildPhases = (
+				3AFCFFC126175D8F002A63A2 /* Sources */,
+				3AFCFFC226175D8F002A63A2 /* Frameworks */,
+				3AFCFFC326175D8F002A63A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AFCFFC726175D8F002A63A2 /* PBXTargetDependency */,
+			);
+			name = fort7350_projectUITests;
+			productName = fort7350_projectUITests;
+			productReference = 3AFCFFC526175D8F002A63A2 /* fort7350_projectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AFCFF9C26175D8E002A63A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3AFCFFA326175D8E002A63A2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3AFCFFB926175D8F002A63A2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3AFCFFA326175D8E002A63A2;
+					};
+					3AFCFFC426175D8F002A63A2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3AFCFFA326175D8E002A63A2;
+					};
+				};
+			};
+			buildConfigurationList = 3AFCFF9F26175D8E002A63A2 /* Build configuration list for PBXProject "fort7350_project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AFCFF9B26175D8E002A63A2;
+			productRefGroup = 3AFCFFA526175D8E002A63A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AFCFFA326175D8E002A63A2 /* fort7350_project */,
+				3AFCFFB926175D8F002A63A2 /* fort7350_projectTests */,
+				3AFCFFC426175D8F002A63A2 /* fort7350_projectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AFCFFA226175D8E002A63A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFCFFB426175D8F002A63A2 /* LaunchScreen.storyboard in Resources */,
+				3AFCFFB126175D8F002A63A2 /* Assets.xcassets in Resources */,
+				3AFCFFAF26175D8E002A63A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFCFFB826175D8F002A63A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFCFFC326175D8F002A63A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AFCFFA026175D8E002A63A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFCFFAC26175D8E002A63A2 /* ViewController.swift in Sources */,
+				3AFCFFA826175D8E002A63A2 /* AppDelegate.swift in Sources */,
+				3AFCFFAA26175D8E002A63A2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFCFFB626175D8F002A63A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFCFFBF26175D8F002A63A2 /* fort7350_projectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFCFFC126175D8F002A63A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFCFFCA26175D8F002A63A2 /* fort7350_projectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AFCFFBC26175D8F002A63A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AFCFFA326175D8E002A63A2 /* fort7350_project */;
+			targetProxy = 3AFCFFBB26175D8F002A63A2 /* PBXContainerItemProxy */;
+		};
+		3AFCFFC726175D8F002A63A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AFCFFA326175D8E002A63A2 /* fort7350_project */;
+			targetProxy = 3AFCFFC626175D8F002A63A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AFCFFAD26175D8E002A63A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AFCFFAE26175D8E002A63A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AFCFFB226175D8F002A63A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AFCFFB326175D8F002A63A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AFCFFCC26175D8F002A63A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AFCFFCD26175D8F002A63A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AFCFFCF26175D8F002A63A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fort7350_project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wlu.fort7350-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AFCFFD026175D8F002A63A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fort7350_project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wlu.fort7350-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AFCFFD226175D8F002A63A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fort7350_projectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wlu.fort7350-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fort7350_project.app/fort7350_project";
+			};
+			name = Debug;
+		};
+		3AFCFFD326175D8F002A63A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fort7350_projectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wlu.fort7350-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fort7350_project.app/fort7350_project";
+			};
+			name = Release;
+		};
+		3AFCFFD526175D8F002A63A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fort7350_projectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wlu.fort7350-projectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fort7350_project;
+			};
+			name = Debug;
+		};
+		3AFCFFD626175D8F002A63A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fort7350_projectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "wlu.fort7350-projectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fort7350_project;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AFCFF9F26175D8E002A63A2 /* Build configuration list for PBXProject "fort7350_project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFCFFCC26175D8F002A63A2 /* Debug */,
+				3AFCFFCD26175D8F002A63A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFCFFCE26175D8F002A63A2 /* Build configuration list for PBXNativeTarget "fort7350_project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFCFFCF26175D8F002A63A2 /* Debug */,
+				3AFCFFD026175D8F002A63A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFCFFD126175D8F002A63A2 /* Build configuration list for PBXNativeTarget "fort7350_projectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFCFFD226175D8F002A63A2 /* Debug */,
+				3AFCFFD326175D8F002A63A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFCFFD426175D8F002A63A2 /* Build configuration list for PBXNativeTarget "fort7350_projectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFCFFD526175D8F002A63A2 /* Debug */,
+				3AFCFFD626175D8F002A63A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AFCFF9C26175D8E002A63A2 /* Project object */;
+}
