@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D64" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Bin" representedClassName=".Bin" syncable="YES" codeGenerationType="category">
+        <attribute name="bin" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="parts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Part" inverseName="bin" inverseEntity="Part"/>
+        <relationship name="shelf" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Shelf" inverseName="bins" inverseEntity="Shelf"/>
+    </entity>
+    <entity name="Category" representedClassName=".Category" syncable="YES" codeGenerationType="category">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="includesPart" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Part" inverseName="category" inverseEntity="Part"/>
+    </entity>
+    <entity name="Location" representedClassName=".Location" syncable="YES" codeGenerationType="category">
+        <attribute name="plant" optional="YES" attributeType="String"/>
+        <attribute name="storageUnit" optional="YES" attributeType="String"/>
+        <relationship name="parts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Part" inverseName="location" inverseEntity="Part"/>
+        <relationship name="shelves" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Shelf" inverseName="location" inverseEntity="Shelf"/>
+    </entity>
+    <entity name="Part" representedClassName=".Part" syncable="YES" codeGenerationType="category">
+        <attribute name="barcode" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="manufacturer" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="partNumber" attributeType="String"/>
+        <attribute name="quantity" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="bin" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Bin" inverseName="parts" inverseEntity="Bin"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="includesPart" inverseEntity="Category"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Location" inverseName="parts" inverseEntity="Location"/>
+        <relationship name="shelf" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Shelf" inverseName="parts" inverseEntity="Shelf"/>
+    </entity>
+    <entity name="Shelf" representedClassName=".Shelf" syncable="YES" codeGenerationType="category">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="bins" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Bin" inverseName="shelf" inverseEntity="Bin"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Location" inverseName="shelves" inverseEntity="Location"/>
+        <relationship name="parts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Part" inverseName="shelf" inverseEntity="Part"/>
+    </entity>
+    <elements>
+        <element name="Bin" positionX="-83.0350341796875" positionY="-63.03363037109375" width="128" height="88"/>
+        <element name="Category" positionX="-53.0867919921875" positionY="-158.98974609375" width="128" height="73"/>
+        <element name="Location" positionX="-758.7776489257812" positionY="163.9996032714843" width="128" height="103"/>
+        <element name="Part" positionX="-431.15380859375" positionY="-83.0999755859375" width="128" height="193"/>
+        <element name="Shelf" positionX="-33.1944580078125" positionY="72.97763061523438" width="128" height="103"/>
+    </elements>
+</model>

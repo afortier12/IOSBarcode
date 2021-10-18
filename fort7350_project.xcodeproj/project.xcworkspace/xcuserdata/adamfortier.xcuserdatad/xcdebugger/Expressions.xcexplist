@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "static Category.addCategories(_:):Category.swift">
+      </ContextState>
+      <ContextState
+         contextName = "static Shelf.getShelfIfExists(with:location:):Shelf.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "locations[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static Category.categoryExists(with:):Category.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.textFieldDidBeginEditing(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "categoryTextField.text">
+            </PersistentString>
+            <PersistentString
+               value = "bins.startIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Shelf.__allocating_init(from:):Shelf.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.pickerView(_:numberOfRowsInComponent:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedPickerTextField">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static Part.getPartWithBarcode(with:):Part.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "parts?.isEmpty()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static AppDelegate.viewContext.getter:AppDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "persistentContainer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static Shelf.getShelfIfExists(with:locationToCheck:):Shelf.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "shelf.name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.populateBinFields(locationFilter:shelfFilter:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "shelf.bins">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
